@@ -1,0 +1,38 @@
+.meme-header {
+  width: 100%;
+  height: 65px;
+  background: -webkit-gradient(linear, left top, right top, from(#672280), to(#A626D3));
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.meme-header .meme-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.meme-header .meme-logo .troll-photo {
+  width: 31.31px;
+  height: 26.22px;
+  margin-right: 5px;
+}
+
+.meme-header .project {
+  margin-right: 20px;
+}
+
+.meme-header .project h4 {
+  font-weight: 300;
+}
+/*# sourceMappingURL=Header.css.map */

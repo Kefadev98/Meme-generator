@@ -1,0 +1,83 @@
+.main-form {
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-form .meme-inputs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-form .meme-inputs input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 0.5rem;
+  font-family: 'Karla', sans-serif;
+  padding: 15px;
+}
+
+.main-form button {
+  width: 487px;
+  height: 40px;
+  margin-top: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#672280), to(#A626D3));
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-form .meme {
+  margin-top: 30px;
+  width: 520px;
+  height: 300px;
+}
+
+.main-form .meme img {
+  width: 520px;
+  height: 300px;
+}
+
+.main-form .meme .meme-text {
+  -webkit-transform: translate(45%, -105%);
+          transform: translate(45%, -105%);
+  width: 500px;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1000;
+  color: white;
+  font-family: impact, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+/*# sourceMappingURL=Main.css.map */
