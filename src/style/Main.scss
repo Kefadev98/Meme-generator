@@ -1,0 +1,64 @@
+.main-form {
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .meme-inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    input {
+      width: 230px;
+      height: 35px;
+      border: 1px solid #d5d4d8;
+      border-radius: 0.5rem;
+      font-family: "Karla", sans-serif;
+      padding: 15px;
+    }
+  }
+
+  button {
+    width: 487px;
+    height: 40px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #672280, #a626d3);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .meme {
+    margin-top: 30px;
+    width: 520px;
+    height: 300px;
+
+    img {
+      width: 520px;
+      height: 300px;
+    }
+
+    .meme-text {
+      transform: translate(45%, -105%);
+      width: 500px;
+      height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 1000;
+      color: white;
+      font-family: impact, sans-serif;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+        -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000,
+        -2px 0 0 #000, 2px 2px 5px #000;
+    }
+  }
+}

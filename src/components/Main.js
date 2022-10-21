@@ -1,4 +1,4 @@
-import "../Styles/Main.scss";
+import "../style/Main.scss";
 import Data from "../data";
 import { useState } from "react";
 
