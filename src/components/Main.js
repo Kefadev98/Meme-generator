@@ -12,6 +12,7 @@ const Main = () => {
   //Includes images from json
   const [allMemeImages, setAllMemeImages] = useState(Data);
 
+  //Get meme image and calculate random number
   const getMemeImage = () => {
     const memesArray = allMemeImages.data.memes;
     const randomNumber = Math.floor(Math.random() * memesArray.length);
@@ -22,6 +23,7 @@ const Main = () => {
     }));
   };
 
+  //Top and bottom text for meme
   const handleChange = (event) => {
     const { name, value } = event.target;
     setMeme((prevMeme) => ({
