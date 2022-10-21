@@ -1,5 +1,5 @@
 import "../style/Main.scss";
-import Data from "../data";
+import Data from "../data/data";
 import { useState } from "react";
 
 const Main = () => {
